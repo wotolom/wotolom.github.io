@@ -34,7 +34,7 @@ github: wotolom
 
 # Build settings
 #theme: minima #theme: are github-page supported ones with version dependencies (for minima its 2.5.1)
-remote-theme: jekyll-minima #remote-theme: github repo from jekyll-themes for github-page
+remote_theme: jekyll/minima #remote-theme: github repo from jekyll-themes for github-page
 #https://pages.github.com/versions/
 #minima:
 #skin: dark #skins just in minima 3.0+
