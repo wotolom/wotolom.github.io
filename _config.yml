@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: wotolom's Github Page
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,11 +26,18 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+linkedin_username: charel-b-b68b39161
+twitter_username: molotow9
+github_username:  wotolom
+social-links:
+github: wotolom
 
 # Build settings
-theme: minima
+#theme: minima #theme: are github-page supported ones with version dependencies (for minima its 2.5.1)
+remote-theme: jekyll-minima #remote-theme: github repo from jekyll-themes for github-page
+#https://pages.github.com/versions/
+#minima:
+#skin: dark #skins just in minima 3.0+
 plugins:
   - jekyll-feed
 
