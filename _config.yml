@@ -18,28 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: wotolom's Github Page
-email: your-email@example.com
+author:
+    name: Charel Baum
+
+title: wotolom's GitHub Page
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  GitHub Page of mine, Charel Baum
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: charel-b-b68b39161
-twitter_username: molotow9
-github_username:  wotolom
-social-links:
-github: wotolom
-
+#linkedin_username: charel-b-b68b39161
+#twitter_username: molotow9
+#github_username:  wotolom
+minima:
+    date_format: "%d %b, %Y"
+    
+    social_links:
+        github: wotolom
+        twitter: molotow9
+        linkedin: charel-b-b68b39161
+    
+    skin: solarized-dark #skins just in minima 3.0+
 # Build settings
 #theme: minima #theme: are github-page supported ones with version dependencies (for minima its 2.5.1)
-remote_theme: jekyll/minima #remote-theme: github repo from jekyll-themes for github-page
 #https://pages.github.com/versions/
-#minima:
-#skin: dark #skins just in minima 3.0+
+remote_theme: jekyll/minima #remote-theme: github repo from jekyll-themes for github-page
+#https://github.com/jekyll/minima
+
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
