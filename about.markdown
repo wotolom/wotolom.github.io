@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-For my main web presence, add over to my  [wordpress site](https://baumcharel.wordpress.com/about-me/)
+For my main web presence, you can head over to my  [wordpress site](https://baumcharel.wordpress.com/about-me/)
